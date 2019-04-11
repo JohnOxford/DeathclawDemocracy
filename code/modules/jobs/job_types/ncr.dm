@@ -98,7 +98,7 @@ Lieutenant
 	description = "You are the direct superior to the Sergeant and Enlisted, working with the Captain and under special circumstances, Rangers. You plan patrols, training and missions, working in some cases with Rangers in accomplishing objectives otherwise beyond the capabilities of ordinary enlisted personnel."
 	supervisors = "Captain and above"
 	selection_color = "#fff5cc"
-	exp_requirements = 1200
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13lieutenant
 
@@ -135,7 +135,7 @@ Medic
 	description = "You are in charge of providing medical support and organization to the NCR throughout the region. You answer directly to the Captain and organize NCR personnel for medical operations as needed."
 	supervisors = "Captain and above"
 	selection_color = "#fff5cc"
-	exp_requirements = 1200
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13medic
 
@@ -174,7 +174,7 @@ Medic
 	description = "You are the direct superior to the enlisted troops, working with the chain of command you echo the orders of your superiors and ensure that the Enlisted follow them to the letter. Additionally you are responsible for the well being of the troops and their ongoing training with the NCR."
 	supervisors = "Lieutenants and above"
 	selection_color = "#fff5cc"
-	exp_requirements = 600
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13sergeant
 
@@ -212,7 +212,7 @@ Engineer
 	description = "You are in charge of fortifying and building for NCR strategic locations throughout the region. You answer directly to the Lieutenant and Captain, while also organizing grunts to assist you as needed."
 	supervisors = "Lieutenants and above"
 	selection_color = "#fff5cc"
-	exp_requirements = 600
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13engineer
 
@@ -251,7 +251,7 @@ Trooper
 	description = "You answer to your Sergeant and follow the chain of command, to your commanding officer, the Captain."
 	supervisors = "Sergeants and above"
 	selection_color = "#fff5cc"
-	exp_requirements = 180
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13trooper
 
@@ -320,7 +320,7 @@ Heavy Trooper
 	description = "You are an elite, heavy trooper with the NCR that has years of experience and training under their belt. You are also equivalent to a Sergeant, and as such, can organize lower troops as you see fit to assist in NCR interests and goals throughout the region."
 	supervisors = "Lieutenants and above"
 	selection_color = "#fff5cc"
-	exp_requirements = 1500
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13heavytroop
 
@@ -356,7 +356,7 @@ Veteran Ranger
 	description = "You answer directly to the Captain, working either independently or in a team to complete your mission objectives however required, operating either alone, in a squad or with the NCR Army. As a Veteran Ranger you work closely with the Captain in planning special operations with your team while also carrying out those orders in the field by any means necessary."
 	supervisors = "Lieutenants and above"
 	selection_color = "#ffeeaa"
-	exp_requirements = 1500
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13vetranger
 
@@ -390,7 +390,7 @@ Ranger
 	description = "You answer directly to the Veteran Ranger and Captain, working either independently with other Rangers or Infantry to complete your mission objectives however required, working either alone, in a squad or with the Army. As a Ranger, you seize, destroy, capture, exploit, or recover designated targets on behalf of the NCR."
 	supervisors = "Veteran Ranger"
 	selection_color = "#fff5cc"
-	exp_requirements = 720
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13ranger
 
@@ -428,7 +428,7 @@ Recon Ranger
 	description = "You answer directly to the Captain, working either independently with other Rangers or Infantry to complete your mission objectives however required, working either alone, in a squad or with the Army. As a Recon Ranger, you perform reconnaissance, seize or destroy assets and capture, exploit, or recover designated targets on behalf of the NCR."
 	supervisors = "Veteran Ranger"
 	selection_color = "#fff5cc"
-	exp_requirements = 420
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/ncr/f13recranger
 

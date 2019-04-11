@@ -90,7 +90,7 @@ Centurion
 	supervisors = "Legate"
 	selection_color = "#ffdddd"
 	req_admin_notify = 1
-	exp_requirements = 1920
+	exp_requirements = 0
 
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13centurion
@@ -128,7 +128,7 @@ Veteran Decan
 	supervisors = "The Centurion and up."
 	forbids = "The Legion forbids: Ghouls(Anywhere), Women in armed roles, chems and medicine besides healing powder. Lethally harming any servants of Caesar without proper reason."
 	enforces = "The Legion expects: Obeying orders of superiors. A roman style name. Wearing the uniform, unless acting as a nonlethal infiltrator. Expansion of Caesars Domain."
-	exp_requirements = 1500
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13vetdecan
 
@@ -165,7 +165,7 @@ Prime Decan
 	description = "You answer directly to the Centurion, but are still expected to obey orders from the Veteran Decanus as needed. You work with them to help run the camp and organize your Prime Legionaries, leading them on raids and scouting missions on behalf of the Centurion."
 	supervisors = "Veteran Decanus and up."
 
-	exp_requirements = 1320
+	exp_requirements = 0
 
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13primedecan
@@ -203,7 +203,7 @@ Decan
 	description = "You answer directly to the Centurion, but are still expected to obey orders from the Prime and Veteran Decanii. You work with them to help run the camp and train recruits, leading them on raids and scouting missions on behalf of the Centurion."
 	supervisors = "Prime Decanus and up."
 
-	exp_requirements = 1080
+	exp_requirements = 0
 
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13decan
@@ -241,7 +241,7 @@ Vexillarius
 	description = "You answer directly to the Decanii and the Centurion, acting as a standard bearer for your Centuria. You raise troop morale, relay orders from the Decanii and the Centurion, and rally men to you as needed."
 	supervisors = "Recruit Decanus and up."
 
-	exp_requirements = 840
+	exp_requirements = 0
 
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13vexillarius
@@ -277,7 +277,7 @@ Veteran
 	forbids = "The Legion forbids: Ghouls(Anywhere), Women in armed roles, chems and medicine besides healing powder. Lethally harming any servants of Caesar without proper reason."
 	enforces = "The Legion expects: Obeying orders of superiors. A roman style name. Wearing the uniform, unless acting as a nonlethal infiltrator. Expansion of Caesars Domain."
 	supervisors = "Veteran Decanus and up."
-	exp_requirements = 720
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13vetlegion
 
@@ -316,7 +316,7 @@ Prime
 	forbids = "The Legion forbids: Ghouls(Anywhere), Women in armed roles, chems and medicine besides healing powder. Lethally harming any servants of Caesar without proper reason."
 	enforces = "The Legion expects: Obeying orders of superiors. A roman style name. Wearing the uniform, unless acting as a nonlethal infiltrator. Expansion of Caesars Domain."
 	supervisors = "Prime Decanus and up."
-	exp_requirements = 180
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13primelegion
 
