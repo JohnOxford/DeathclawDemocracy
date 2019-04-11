@@ -1,18 +1,14 @@
 <!-- Most valid html will work in here, excluding images. -->
-
-<h1>Welcome to Bad Deathclaw!</h1>
+<h1>Welcome to Deathclaw: Exodus</h1>
 
 <b>This is an 18+ server, do not play if you are underage.</b>
-
 <i>
 Don't be a dick, and <b>read the rules</b> before you play.
 
 Development is active and we are always looking for more talent, we are open source and running a ported /tg/ version of legacy F13 code.
 
-Questions regarding the sever can be directed to anyone roled as a Scribe or Paladin on our Discord.
-
-Github: https://github.com/BadDeathclaw/TG-Claw
-Discord: https://discord.gg/pY33Q8c
+Github: https://github.com/JohnOxford/Deathclaw-Exodus
+Discord: https://discord.gg/JNEeAQ2
 
 This server takes place before the Second Battle of Hoover Dam, in Nevada.
 </i>
