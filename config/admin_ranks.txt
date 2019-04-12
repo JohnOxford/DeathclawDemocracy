@@ -35,13 +35,13 @@
 # END_KEYWORDS
 
 #Previous ranks on archive incase someone shits the proverbial bed. (once everyone has been switched over to the new ranks you're more than welcome to blitz these to reduce bloat)
-Scribe 			= +SERVER +DEBUG +VAREDIT +SPAWN +DJ +POSSESS -AUTOLOGIN
-Head Scribe 	= +@ +POLL -AUTOLOGIN
+Architect 		= +SERVER +DEBUG +VAREDIT +SPAWN +DJ +POSSESS -AUTOLOGIN
+Head Architect		= +@ +POLL -AUTOLOGIN
 
-Initiate		= +ADMIN
-Aspirant 		= +@ +BAN
-Knight 			= +@ +SPAWN +FUN +VAREDIT
-Paladin			= +@ +STEALTH +POSSESS +BUILD +SOUND +SERVER +DEBUG
-Head Paladin	= +EVERYTHING *EVERYTHING
-Elder			= +EVERYTHING *EVERYTHING
+Enforcer Candidate 	= +ADMIN
+Trial Enforcer		= +@ +BAN
+Enforcer 		= +@ +SPAWN +FUN +VAREDIT +SOUND
+Senior Enforcer		= +@ +STEALTH +POSSESS +BUILD +SERVER +DEBUG
+Head Enforcer 		= +EVERYTHING *EVERYTHING
+Council			= +EVERYTHING *EVERYTHING
 Host 			= +EVERYTHING *EVERYTHING

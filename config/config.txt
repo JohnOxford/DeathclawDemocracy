@@ -48,7 +48,7 @@ ADMIN_LEGACY_SYSTEM
 #LOAD_LEGACY_RANKS_ONLY
 
 ## Comment this out if you want to use the SQL based banning system. The legacy systems use the files in the data folder. You need to set up your database to use the SQL based system.
-#BAN_LEGACY_SYSTEM
+BAN_LEGACY_SYSTEM
 
 ## Comment this out to stop locally connected clients from being given the almost full access !localhost! admin rank
 ENABLE_LOCALHOST_RANK
@@ -277,7 +277,7 @@ TICK_LIMIT_MC_INIT 500
 #TICKLAG 0.5
 
 ##Can also be set as per-second value, the following value is identical to the above.
-FPS 60
+FPS 20
 
 ## Comment this out to disable automuting
 #AUTOMUTE_ON
