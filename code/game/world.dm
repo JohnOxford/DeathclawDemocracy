@@ -245,10 +245,10 @@ GLOBAL_PROTECT(security_mode)
 			features += "vote"
 		hostedby = CONFIG_GET(string/hostedby)
 
-	s += "<b>\[ENG] Bad Deathclaw</b> - Unofficial Fallout 13<br>"
+	s += "<b>\[ENG]</b> - Unofficial Fallout 13<br>"
 	s += "<br>"
-	s += "Medium RP \[https://discord.gg/pY33Q8c]<br>"
-	s += "Hosted by degenerates"
+	s += "[https://discord.gg/T9TKehc]<br>"
+	s += "Hosted by Exodus"
 
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)
