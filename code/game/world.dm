@@ -235,7 +235,6 @@ GLOBAL_PROTECT(security_mode)
 		features += "closed"
 
 	var/s = ""
-	var/hostedby
 	if(config)
 		var/server_name = CONFIG_GET(string/servername)
 		if (server_name)
@@ -243,12 +242,11 @@ GLOBAL_PROTECT(security_mode)
 		features += "[CONFIG_GET(flag/norespawn) ? "no " : ""]respawn"
 		if(CONFIG_GET(flag/allow_vote_mode))
 			features += "vote"
-		hostedby = CONFIG_GET(string/hostedby)
 
-	s += "<b>\[ENG]</b> - Unofficial Fallout 13<br>"
+	s += "Unofficial Fallout 13<br>"
 	s += "<br>"
-	s += "[https://discord.gg/T9TKehc]<br>"
-	s += "Hosted by Exodus"
+	s += "\[https://discord.gg/T9TKehc]<br>"
+	s += "Hosted by <b>Exodus Interactive</b>"
 
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)
@@ -259,9 +257,6 @@ GLOBAL_PROTECT(security_mode)
 		features += "~[n] players"
 	else if (n > 0)
 		features += "~[n] player"
-
-	if (!host && hostedby)
-		features += "hosted by <b>[hostedby]</b>"
 
 	if (features)
 		s += ": [jointext(features, ", ")]"
