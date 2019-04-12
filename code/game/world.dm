@@ -247,7 +247,7 @@ GLOBAL_PROTECT(security_mode)
 
 	s += "<b>\[ENG]</b> - Unofficial Fallout 13<br>"
 	s += "<br>"
-	s += "Low-Medium RP \[https://discord.gg/T9TKehc]<br>"
+	s += "[https://discord.gg/T9TKehc]<br>"
 	s += "Hosted by Exodus"
 
 	var/n = 0
