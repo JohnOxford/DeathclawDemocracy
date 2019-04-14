@@ -36,12 +36,12 @@
 
 #Previous ranks on archive incase someone shits the proverbial bed. (once everyone has been switched over to the new ranks you're more than welcome to blitz these to reduce bloat)
 Architect 		= +SERVER +DEBUG +VAREDIT +SPAWN +DJ +POSSESS -AUTOLOGIN
-Head Architect		= +@ +POLL -AUTOLOGIN
+HeadArchitect		= +@ +POLL -AUTOLOGIN
 
-Enforcer Candidate 	= +ADMIN
-Trial Enforcer		= +@ +BAN
+EnforcerCandidate 	= +ADMIN
+TrialEnforcer		= +@ +BAN
 Enforcer 		= +@ +SPAWN +FUN +VAREDIT +SOUND
-Senior Enforcer		= +@ +STEALTH +POSSESS +BUILD +SERVER +DEBUG
-Head Enforcer 		= +EVERYTHING *EVERYTHING
+SeniorEnforcer		= +@ +STEALTH +POSSESS +BUILD +SERVER +DEBUG
+HeadEnforcer 		= +EVERYTHING *EVERYTHING
 Council			= +EVERYTHING *EVERYTHING
 Host 			= +EVERYTHING *EVERYTHING
