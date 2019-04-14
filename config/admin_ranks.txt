@@ -36,7 +36,7 @@
 
 #Previous ranks on archive incase someone shits the proverbial bed. (once everyone has been switched over to the new ranks you're more than welcome to blitz these to reduce bloat)
 Architect 		= +SERVER +DEBUG +VAREDIT +SPAWN +DJ +POSSESS -AUTOLOGIN
-Head Architect		= +@ +POLL -AUTOLOGIN
+Head Architect		= +EVERYTHING *EVERYTHING
 
 Enforcer Candidate 	= +ADMIN
 Trial Enforcer		= +@ +BAN
