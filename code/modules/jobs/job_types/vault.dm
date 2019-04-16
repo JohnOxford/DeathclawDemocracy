@@ -45,7 +45,7 @@ Overseer
 	supervisors = "Vault-Tec"
 	selection_color = "#ccffcc"
 	req_admin_notify = 1
-	exp_requirements = 600
+	exp_requirements = 600000
 
 	outfit = /datum/outfit/job/vault/f13overseer
 
@@ -97,7 +97,7 @@ Head of Security
 	supervisors = "the overseer"
 	selection_color = "#ccffcc"
 	req_admin_notify = 1
-	exp_requirements = 600
+	exp_requirements = 600000
 	exp_type = EXP_TYPE_VAULT
 	exp_type_department = EXP_TYPE_SECURITY
 
@@ -150,6 +150,7 @@ Medical Doctor
 	description = "You answer directly to the Overseer, administering medical aid to your fellow vault dwellers, you also work around the clock to produce the vital medicines and compounds needed to keep your department running. "
 	supervisors = "the overseer"
 	selection_color = "#ddffdd"
+	exp_requirements = 600000
 
 	outfit = /datum/outfit/job/vault/f13doctor
 
@@ -189,6 +190,7 @@ Scientist
 	description = "You answer directly to the Overseer, conducting vital research for the denizens of the vault, you spend your days pouring over pre-war blueprints in the hopes of revitalizing the sciences of the old world. "
 	supervisors = "the overseer"
 	selection_color = "#ddffdd"
+	exp_requirements = 600000
 
 	outfit = /datum/outfit/job/vault/f13vaultscientist
 
@@ -226,6 +228,7 @@ Security Officer
 	selection_color = "#ddffdd"
 	exp_requirements = 0
 	exp_type = EXP_TYPE_VAULT
+	exp_requirements = 600000
 
 	outfit = /datum/outfit/job/vault/f13security
 
@@ -376,6 +379,7 @@ Station Engineer
 	description = "You answer directly to the Overseer, tasked with the maintenance of the vaults defenses and machinery, while also overseeing the smooth operation of its generators and electrical systems."
 	supervisors = "the overseer"
 	selection_color = "#ddffdd"
+	exp_requirements = 600000
 
 	outfit = /datum/outfit/job/vault/f13vaultengineer
 
