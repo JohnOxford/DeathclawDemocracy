@@ -12,7 +12,7 @@
 	Define subtypes of this datum
 */
 /datum/client_colour
-	var/colour = "" //Any client.color-valid value
+	var/colour = "fallout" //Any client.color-valid value
 	var/priority = 1 //Since only one client.color can be rendered on screen, we take the one with the highest priority value:
 	//eg: "Bloody screen" > "goggles colour" as the former is much more important
 
@@ -106,6 +106,9 @@
 
 /datum/client_colour/glass_colour/gray
 	colour = "#cccccc"
+
+/datum/client_colour/glass_colour/fallout
+	colour = "#411D1E"
 
 
 /datum/client_colour/monochrome

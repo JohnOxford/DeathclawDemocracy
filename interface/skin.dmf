@@ -54,7 +54,7 @@ window "mainwindow"
 		size = 640x440
 		anchor1 = none
 		anchor2 = none
-		background-color = #3c4438
+		background-color = #411d1e
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Deathclaw: Exodus - [ERP+] [100% FREE LAG]"
@@ -63,11 +63,11 @@ window "mainwindow"
 		menu = "menu"
 	elem "split"
 		type = CHILD
-		pos = 3,0
+		pos = -2,0
 		size = 634x417
 		anchor1 = 0,0
 		anchor2 = 100,100
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "splitter"
 		left = "mapwindow"
 		right = "infowindow"
@@ -78,7 +78,7 @@ window "mainwindow"
 		size = 517x20
 		anchor1 = 0,100
 		anchor2 = 100,100
-		background-color = #c0c0c0
+		background-color = #6f3132
 		is-default = true
 		border = sunken
 		saved-params = "command"
@@ -89,7 +89,7 @@ window "mainwindow"
 		anchor1 = 100,100
 		anchor2 = none
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Chat"
 		command = ".winset \"saybutton.is-checked=true ? input.command=\"!say \\\"\" : input.command=\"\"saybutton.is-checked=true ? mebutton.is-checked=false\"\"saybutton.is-checked=true ? oocbutton.is-checked=false\""
@@ -101,7 +101,7 @@ window "mainwindow"
 		anchor1 = 100,100
 		anchor2 = none
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "OOC"
 		command = ".winset \"oocbutton.is-checked=true ? input.command=\"!ooc \\\"\" : input.command=\"\"oocbutton.is-checked=true ? mebutton.is-checked=false\"\"oocbutton.is-checked=true ? saybutton.is-checked=false\""
@@ -113,7 +113,7 @@ window "mainwindow"
 		anchor1 = 100,100
 		anchor2 = none
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Me"
 		command = ".winset \"mebutton.is-checked=true ? input.command=\"!me \\\"\" : input.command=\"\"mebutton.is-checked=true ? saybutton.is-checked=false\"\"mebutton.is-checked=true ? oocbutton.is-checked=false\""
@@ -124,7 +124,7 @@ window "mainwindow"
 		size = 200x200
 		anchor1 = none
 		anchor2 = none
-		background-color = #3c4438
+		background-color = #411d1e
 		is-visible = false
 		saved-params = ""
 	elem "tooltip"
@@ -133,7 +133,7 @@ window "mainwindow"
 		size = 999x999
 		anchor1 = none
 		anchor2 = none
-		background-color = #3c4438
+		background-color = #411d1e
 		is-visible = false
 		saved-params = ""
 
@@ -155,6 +155,7 @@ window "mapwindow"
 		anchor2 = 100,100
 		font-family = "Arial"
 		font-size = 7
+		background-color = #411d1e
 		is-default = true
 		saved-params = "icon-size"
 		zoom-mode = distort
@@ -163,19 +164,24 @@ window "infowindow"
 	elem "infowindow"
 		type = MAIN
 		pos = 281,0
-		size = 640x480
+		size = 643x484
 		anchor1 = none
 		anchor2 = none
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
 		is-pane = true
 	elem "info"
 		type = CHILD
 		pos = 0,30
-		size = 640x445
+		size = 643x449
 		anchor1 = 0,0
 		anchor2 = 100,100
-		background-color = #454943
+		background-color = #6f3132
 		saved-params = "splitter"
 		left = "statwindow"
 		right = "outputwindow"
@@ -183,66 +189,66 @@ window "infowindow"
 	elem "changelog"
 		type = BUTTON
 		pos = 16,4
-		size = 104x20
+		size = 105x20
 		anchor1 = 3,0
 		anchor2 = 19,0
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Changelog"
 		command = "changelog"
 	elem "rules"
 		type = BUTTON
-		pos = 120,4
+		pos = 121,4
 		size = 100x20
 		anchor1 = 19,0
 		anchor2 = 34,0
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Rules"
 		command = "rules"
 	elem "wiki"
 		type = BUTTON
-		pos = 220,4
+		pos = 221,4
 		size = 100x20
 		anchor1 = 34,0
 		anchor2 = 50,0
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Patreon"
 		command = "wiki"
 	elem "forum"
 		type = BUTTON
-		pos = 320,4
-		size = 100x20
+		pos = 321,4
+		size = 101x20
 		anchor1 = 50,0
 		anchor2 = 66,0
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Discord"
 		command = "forum"
 	elem "github"
 		type = BUTTON
-		pos = 420,4
+		pos = 422,4
 		size = 100x20
 		anchor1 = 66,0
 		anchor2 = 81,0
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Github"
 		command = "github"
 	elem "report-issue"
 		type = BUTTON
-		pos = 520,4
-		size = 100x20
+		pos = 522,4
+		size = 101x20
 		anchor1 = 81,0
 		anchor2 = 97,0
 		text-color = #ffffff
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "is-checked"
 		text = "Report Issue"
 		command = "report-issue"
@@ -254,7 +260,7 @@ window "outputwindow"
 		size = 640x480
 		anchor1 = none
 		anchor2 = none
-		background-color = #747a70
+		background-color = #ffe1e2
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -268,7 +274,7 @@ window "outputwindow"
 		size = 638x480
 		anchor1 = 0,0
 		anchor2 = 100,100
-		background-color = #747a70
+		background-color = #6f3132
 		is-visible = false
 		is-disabled = true
 		saved-params = ""
@@ -279,6 +285,7 @@ window "outputwindow"
 		size = 638x480
 		anchor1 = 0,0
 		anchor2 = 100,100
+		background-color = #ffe1e2
 		is-default = true
 		saved-params = ""
 
@@ -289,19 +296,24 @@ window "statwindow"
 		size = 640x480
 		anchor1 = none
 		anchor2 = none
-		background-color = #3c4438
+		background-color = #411d1e
 		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
 		is-pane = true
 	elem "stat"
 		type = INFO
 		pos = 0,0
-		size = 640x480
+		size = 638x455
 		anchor1 = 0,0
 		anchor2 = 100,100
 		text-color = #ffffff
-		background-color = #454943
+		background-color = #411d1e
 		is-default = true
 		saved-params = ""
 		tab-text-color = #ffffff
-		tab-background-color = #3c4438
+		tab-background-color = #411d1e
 
