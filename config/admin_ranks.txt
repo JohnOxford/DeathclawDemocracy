@@ -35,13 +35,13 @@
 # END_KEYWORDS
 
 #Previous ranks on archive incase someone shits the proverbial bed. (once everyone has been switched over to the new ranks you're more than welcome to blitz these to reduce bloat)
-Architect 		= +SERVER +DEBUG +VAREDIT +SPAWN +DJ +POSSESS -AUTOLOGIN
-HeadArchitect		= +@ +POLL -AUTOLOGIN
+Architect 				= +SERVER +DEBUG +VAREDIT +SPAWN +DJ +POSSESS -AUTOLOGIN
+HeadArchitect				= +EVERYTHING *EVERYTHING
 
-EnforcerCandidate 	= +ADMIN
-TrialEnforcer		= +@ +BAN
-Enforcer 		= +@ +SPAWN +FUN +VAREDIT +SOUND
-SeniorEnforcer		= +@ +STEALTH +POSSESS +BUILD +SERVER +DEBUG
-HeadEnforcer 		= +EVERYTHING *EVERYTHING
-Council			= +EVERYTHING *EVERYTHING
-Host 			= +EVERYTHING *EVERYTHING
+Administrator Candidate 		= +ADMIN
+Trial Administrator			= +@ +BAN
+Administrator 				= +@ +SPAWN +FUN +VAREDIT +SOUND
+Senior Administrator			= +@ +STEALTH +POSSESS +BUILD +SERVER +DEBUG
+Head Administrator 			= +EVERYTHING *EVERYTHING
+Community Manager			= +EVERYTHING *EVERYTHING
+Host 					= +EVERYTHING *EVERYTHING

@@ -1,7 +1,6 @@
 <!-- Most valid html will work in here, excluding images. -->
-<h1>Welcome to Deathclaw: Exodus</h1>
+<h1>Welcome to Fallout Thirteen: The New Republic</h1>
 
-<b>This is an 18+ server, do not play if you are underage.</b>
 <i>
 Don't be a dick, and <b>read the rules</b> before you play.
 

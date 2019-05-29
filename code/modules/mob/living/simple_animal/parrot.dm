@@ -1029,3 +1029,10 @@
 
 /mob/living/simple_animal/parrot/clock_hawk/ratvar_act()
 	return
+
+/mob/living/simple_animal/parrot/easy_pete
+	name = "Easy Pete"
+	desc = "An old prospector, you should listen to him, he has wise things to say."
+	speak = list("Careful wanderer, theres a big hive of cazadors to the north.","Be weary wanderer, theres a big nest of deathclaws to the Northeast, through Hidden Valley.")
+	speak_chance = 10
+	status_flags = GODMODE
